@@ -8,11 +8,11 @@
 		<version>3.2.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.odm</groupId>
+	<groupId>com.spring</groupId>
 	<artifactId>Boilerplate_spring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>odm_back</name>
-	<description>Odm back end</description>
+	<name>boilerplate_spring</name>
+	<description>Boilerplate for spring</description>
 	<properties>
 		<java.version>17</java.version>
 		<org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
@@ -111,18 +111,6 @@
 			<version>${org.mapstruct.version}</version>
 		</dependency>
 
-		<!-- OK HTTP 3 - https://mvnrepository.com/artifact/com.squareup.okhttp/okhttp -->
-		<dependency>
-			<groupId>com.squareup.okhttp3</groupId>
-			<artifactId>okhttp</artifactId>
-			<version>${okhttp.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.squareup.okhttp3</groupId>
-			<artifactId>logging-interceptor</artifactId>
-			<version>4.9.1</version>
-		</dependency>
 
 		<dependency>
 			<groupId>org.springdoc</groupId>
